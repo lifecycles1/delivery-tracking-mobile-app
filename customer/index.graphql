@@ -1,0 +1,9 @@
+type Query {
+  """
+  Result typed as JSON since it has fields ["-N6rOmxa7vOOTpZZSllL", "-N6rQgCkbLPB1xElUchT", "-N6rSJ4xI3_Cq7u58Wh_", "-N6rSZB4AoMAwrDnm2jF", "-N6rTRzW_JrkHQMdt5QA"] that are invalid graphql identifiers
+  """
+  getCustomers: JSON
+    @rest(
+      endpoint: "https://ups-react-native-900b7-default-rtdb.europe-west1.firebasedatabase.app/customers.json"
+    )
+}
