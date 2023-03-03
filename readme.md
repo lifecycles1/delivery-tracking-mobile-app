@@ -16,8 +16,8 @@ npm install react-native-vector-icons
 mkdir stepzen, cd stepzen and stepzen init
 stepzen import curl firebase-orders-realtime-db-url --query-type Order --query-name getOrders --name order
 stepzen import curl firebase-trackingitems-realtime-db-url --query-type TrackingItemsList --query-name getTrackingItemsById --name trackingItems
-https://dashboard.stepzen.com/explorer?endpoint=api%2Fjumpy-numbat
 stepzen import curl firebase-customers-realtime-db-url --query-type Customer --query-name getCustomers --name customer
+cd stepzen and stepzen start
 npm install @apollo/client graphql
 npm install react-native-dotenv (not working)
 expo install react-native-maps
